@@ -49,7 +49,7 @@
     
     [_tracker set:kGAIAnonymizeIp value:@"1"];
     [_tracker set:kGAIUseSecure value:[(_useSecure? @YES : @NO) stringValue]];
-    _tracker.allowIDFACollection = _allowIDFACollection? @YES : @NO;
+    _tracker.allowIDFACollection = _allowIDFACollection? YES : NO;
     
     [super _initWithProperties:properties];
 }
